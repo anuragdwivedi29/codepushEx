@@ -49,6 +49,7 @@ class App extends React.Component {
             <View style={styles.sectionContainer}>
              
              <Text style={{fontSize:20}}>New</Text>
+             <LearnMoreLinks/>
             </View>
 
 <TouchableOpacity onPress={this.onButtonPress}>
