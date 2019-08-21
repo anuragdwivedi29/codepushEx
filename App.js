@@ -47,7 +47,7 @@ class App extends React.Component {
           
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
-             
+             <ReloadInstructions/>
              <Text style={{fontSize:20}}>New</Text>
              <LearnMoreLinks/>
             </View>
